@@ -1,0 +1,50 @@
+html{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #F0F0F0;
+    color: #000;
+}
+.container {
+    width: 80%; /* Adjust the content width */
+    max-width: 900px; /* Set a maximum width */
+    margin: 0 auto; /* Center horizontally with even margins */
+    background-color: #F0F0F0; /* Content background color */
+    padding: 20px; /* Inner padding for better readability */
+}
+header {
+    text-align: center; /* Centers the text inside the header */
+  }
+p {
+    line-height: 1.5;
+    margin: 0;
+  }
+.paragraph-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add consistent spacing between paragraphs */
+}
+a{
+    color: #4A90E2;
+}
+#typing-content {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: visible;    /* Hide text overflow */
+    display: inline-block;
+    border-right: 2px solid black; /* Cursor effect */
+    animation: blink 0.5s step-end infinite; /* Cursor blink */
+    line-height:0.8;
+  }
+  
+  @keyframes blink {
+    from { border-right-color: black; }
+    to { border-right-color: transparent; }
+  }  
+#left-aligned {
+    text-align: left;
+}
