@@ -48,3 +48,10 @@ a{
 #left-aligned {
     text-align: left;
 }
+section {
+  margin-bottom: 50px; /* Space between sections */
+  padding-bottom: 20px; /* Space inside the section */
+}
+#blogs {
+  margin-bottom: 50px; /* Adds space below the div */
+}
